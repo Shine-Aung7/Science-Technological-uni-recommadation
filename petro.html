@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chemical Engineering Website</title>
+  <link rel="stylesheet" href="civil home.css">
+  <script>
+    function switchLang(lang) {
+      const en = document.querySelectorAll('.en');
+      const mm = document.querySelectorAll('.mm');
+      if (lang === 'en') {
+        en.forEach(el => el.style.display = 'block');
+        mm.forEach(el => el.style.display = 'none');
+      } else {
+        en.forEach(el => el.style.display = 'none');
+        mm.forEach(el => el.style.display = 'block');
+      }
+    }
+  </script>
+</head>
+<body onload="switchLang('mm')">
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h2 class="en">Petroleum Engineering</h2>
+    <h2 class="mm">Petroleum Engineering</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about" class="en">HOME</a><a href="#about" class="mm">HOME</a></li>
+        <li><a href="#history" class="en">MAJORS</a><a href="#history" class="mm">MAJORS</a></li>
+        <li><a href="#jobs" class="en">LIST</a><a href="#jobs" class="mm">LIST</a></li>
+        <li><a href="#contact" class="en">CONTACT US</a><a href="#contact" class="mm">CONTACT US</a></li>
+        <li><a href="#contact" class="en">ABOUT</a><a href="#contact" class="mm">ABOUT</a></li>
+      
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button onclick="switchLang('en')">EN</button>
+      <button onclick="switchLang('mm')">MM</button>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h1 class="en">About</h1>
+    <h1 class="mm">About</h1>
+    <div class="box">
+      <p class="en">
+        Petroleum engineering is the field of engineering that deals with the exploration, extraction, and production of oil and natural gas, focusing on finding, drilling, and recovering these hydrocarbons. Petroleum engineers use principles from geology, physics, and chemistry to develop methods for maximizing oil and gas recovery from underground reservoirs, oversee drilling operations, analyze reservoir data, and design and maintain facilities for extraction. Their work is crucial to the energy industry and involves ensuring the safe, efficient, and sustainable management of these vital resources.
+      </p>
+      <p class="mm">
+        ရေနံနှင့် သဘာဝဓာတ်ငွေ့အင်ဂျင်နီယာ (Petroleum Engineering) သည် ရေနံနှင့် သဘာဝဓာတ်ငွေ့ကို ရှာဖွေခြင်း၊ တူးဖော်ခြင်းနှင့် ထုတ်လုပ်ခြင်း လုပ်ငန်းများကို တာဝန်ယူဆောင်ရွက်သော အင်ဂျင်နီယာဌာနတစ်ခု ဖြစ်သည်။ ဤပညာရပ်သည် မြေညီအောက်ရှိ ဟိုက်ဒရိုကာဗွန်များ (hydrocarbons) ကို ရှာဖွေတူးဖော်၍ ထိထိရောက်ရောက် ရယူနိုင်ရေးအပေါ် အထူးအာရုံစိုက်သည်။
+
+ရေနံအင်ဂျင်နီယာများသည် မြေဗေဒ (Geology)၊ ရူပဗေဒ (Physics)နှင့် ဓာတုဗေဒ (Chemistry) ဆိုင်ရာ နိယာမများကို အသုံးချ၍ မြေအောက်ရေနံနှင့် ဓာတ်ငွေ့သိုလှောင်ကန်များမှ ထုတ်ယူမှုကို အများဆုံးရရှိစေရန် နည်းလမ်းများ ဖန်တီးတီထွင်ကြသည်။ ၎င်းတို့သည် တူးဖော်ရေးလုပ်ငန်းများကို ကြီးကြပ်စစ်ဆေးခြင်း၊ သိုလှောင်ကန်အချက်အလက်များကို ချင့်ချိန်လေ့လာခြင်း၊ နှင့် ရယူခြင်းလုပ်ငန်းအတွက် တည်ဆောက်ထားသော ဆောင်ရွက်မှုများကို ဒီဇိုင်းဆွဲခြင်းနှင့် ထိန်းသိမ်းခြင်းတို့ကို လည်း တာဝန်ယူဆောင်ရွက်ကြသည်။
+
+၎င်းတို့၏လုပ်ငန်းသည် စွမ်းအင်လုပ်ငန်းအတွက် အလွန်အရေးကြီးသောအခန်းကဏ္ဍတစ်ခုဖြစ်ပြီး၊ ရင်းမြစ်အရေးကြီးများကို လုံခြုံမှုရှိပြီး ထိရောက်သည့်နည်းလမ်းဖြင့် ထုတ်ယူသုံးစွဲနိုင်ရန်နှင့် တာဝန်ယူစွာ စီမံခန့်ခွဲနိုင်ရေးကို အာမခံပေးသည်။
+      </p>
+    </div>
+  </section>
+
+  <!-- History -->
+  <section id="history" class="section">
+    <h1 class="en">History</h1>
+    <h1 class="mm">History</h1>
+    <div class="box">
+      <p class="en">
+      Petroleum engineering emerged in the early 20th century, formalized with the American Institute of Mining, Metallurgical and Petroleum Engineers (AIME) in 1914 and the first degree at the University of Pittsburgh in 1915. This development was driven by the modern oil industry's need to rationalize and improve its operations. Since then, petroleum engineering has evolved significantly, moving from rudimentary practices to applying advanced techniques like computer modeling, seismic surveys, horizontal drilling, and hydraulic fracturing to enhance oil and gas recovery and reduce costs. 
+      </p>
+      <p class="mm">
+      ရေနံနှင့် သဘာဝဓာတ်ငွေ့အင်ဂျင်နီယာပညာ (Petroleum Engineering) သည် ၂၀ ရာစုအစောပိုင်းတွင် စတင်ပေါ်ထွန်းခဲ့သည်။ ယင်းပညာရပ်ကို တရားဝင်အဖြစ် စနစ်တကျဖွဲ့စည်းခြင်းမှာ 1914 ခုနှစ်တွင် American Institute of Mining, Metallurgical and Petroleum Engineers (AIME) ကို တည်ထောင်ခြင်းဖြင့် ဖြစ်လာခဲ့ပြီး၊ 1915 ခုနှစ်တွင် University of Pittsburgh တွင် ပထမဆုံးဘွဲ့သင်တန်းကို ဖွင့်လှစ်ခဲ့သည်။
+
+ဤဖွံ့ဖြိုးတိုးတက်မှုသည် ခေတ်သစ်ရေနံလုပ်ငန်းအတွင်း လုပ်ငန်းစဉ်များကို စနစ်တကျအောင်မြင်စွာ စီမံခန့်ခွဲနိုင်ရန်နှင့် ထုတ်လုပ်မှုတိုးတက်ရေးအတွက် လိုအပ်မှုကြောင့် ဖြစ်ပေါ်လာခဲ့သည်။
+
+အဆိုပါအချိန်မှစ၍ ရေနံအင်ဂျင်နီယာပညာသည် အခြေခံနည်းလမ်းများမှ များပြားသုံးစွဲလာသော နည်းပညာမြင့်နည်းလမ်းများသို့ ပြောင်းလဲလာခဲ့သည်။ ၎င်းတွင် ကွန်ပျူတာမော်ဒယ်ရေးဆွဲခြင်း (Computer Modeling)၊ မြေအောက်ပြတင်းပေါက်ဆွဲရှာခြင်း (Seismic Surveys)၊ အလျားလိုက်တူးဖော်ခြင်း (Horizontal Drilling) နှင့် အရည်ဖိအားဖြင့် ပဲ့ထွက်စေခြင်း (Hydraulic Fracturing) စသော နည်းလမ်းများပါဝင်ပြီး၊ ထုတ်ယူမှုတိုးမြှင့်ခြင်းနှင့် ကုန်ကျစရိတ်လျော့ချခြင်းတို့အတွက် အရေးကြီးသော နည်းပညာများဖြစ်လာခဲ့သည်။
+      </p>
+    </div>
+  </section>
+
+  <!-- Jobs -->
+  <section id="jobs" class="section">
+    <h1 class="en">Job Opportunities</h1>
+    <h1 class="mm">Job Opportunities</h1>
+    <div class="box">
+      <p class="en">
+       🛢️ Petroleum Engineering Job Opportunities <br>
+
+Reservoir Engineer – Analyzes underground reservoirs to maximize oil and gas recovery.<br>
+
+Drilling Engineer – Plans and supervises the drilling of oil and gas wells.<br>
+
+Production Engineer – Monitors and optimizes the production process after drilling.<br>
+
+Petroleum Geologist – Studies subsurface formations to locate oil and gas reserves.<br>
+
+Well Log Analyst / Petrophysicist – Interprets data from wells to understand rock and fluid properties.<br>
+
+Drilling Fluids Engineer (Mud Engineer) – Designs and manages drilling fluids to stabilize pressure and remove debris.<br>
+
+Offshore Engineer / Rig Engineer – Works on offshore oil rigs, handling technical and safety operations.<br>
+
+HSE (Health, Safety & Environment) Engineer – Ensures health, safety, and environmental standards are followed.<br>
+
+Energy Economist / Petroleum Analyst – Analyzes energy markets, production costs, and resource strategies.<br>
+
+Academia & Research – Conducts research or teaches petroleum engineering in academic institutions.<br>
+      </p>
+      <p class="mm">
+        ရေနံအင်ဂျင်နီယာလုပ်ငန်းအခွင့်အလမ်းများ <br>
+
+၁။ Reservoir Engineer – မြေအောက်သိုလှောင်ကန်များကို ချင့်ချိန်သုံးသပ်ကာ ရေနံနှင့် ဓာတ်ငွေ့ထုတ်ယူမှုကို တိုးမြှင့်ရေးဆောင်ရွက်သူ။<br>
+၂။ Drilling Engineer – ရေနံနှင့် ဓာတ်ငွေ့ဝင်ပေါက်များကို တူးဖော်ရန် စီစဉ်ကြီးကြပ်သူ။<br>
+၃။ Production Engineer – တူးဖော်ပြီးနောက် ထုတ်လုပ်မှုလုပ်ငန်းစဉ်ကို စနစ်တကျ ထိန်းသိမ်းကောင်းမွန်အောင်လုပ်ဆောင်သူ။<br>
+၄။ Petroleum Geologist – ရေနံ၊ ဓာတ်ငွေ့အရင်းအမြစ်များ ရှာဖွေရန် မြေအောက်သမိုင်းဖွဲ့စည်းပုံများကို လေ့လာသူ။<br>
+၅။ Well Log Analyst / Petrophysicist – မြေခေါင်းအောက်မှ အချက်အလက်များကို သုံးသပ်ကာ သံသရာနှင့် အရည်ဓာတ်ပမာဏများကို ချင်းချိန်သူ။<br>
+၆။ Drilling Fluids Engineer (Mud Engineer) – တူးဖော်စဉ် အသုံးပြုသော အရည်များကို ဒီဇိုင်းရေးဆွဲပြီး ဖိအားထိန်းညှိခြင်းနှင့် အညစ်အကြေးဖယ်ရှားခြင်း ပြုလုပ်သူ။<br>
+၇။ Offshore Engineer / Rig Engineer – ပင်လယ်အတွင်းရှိ ရေနံတူးစက်များပေါ်တွင် လုပ်ကိုင်ပြီး စက်မှုနှင့် လုံခြုံရေးဆိုင်ရာတာဝန်များ ထမ်းဆောင်သူ။<br>
+၈။ HSE Engineer – ကျန်းမာရေး၊ လုံခြုံရေးနှင့် ပတ်ဝန်းကျင်ဆိုင်ရာ စံနှုန်းများကို လိုက်နာအောင် ကြီးကြပ်သူ။<br>
+၉။ Energy Economist / Petroleum Analyst – စွမ်းအင်ဈေးကွက်၊ ထုတ်လုပ်မှုကုန်ကျစရိတ်နှင့် ရင်းမြစ်စီမံမှုများကို ချက်ချင်းသုံးသပ်သူ။<br>
+၁၀။ Academia & Research – တက္ကသိုလ်များတွင် သင်ကြားခြင်း သို့မဟုတ် ရေနံနှင့် ဓာတ်ငွေ့ပညာဆိုင်ရာ သုတေသန ပြုလုပ်သူ။<br>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p class="en">📧 Email: kylerysel@gmail.com | 📞 Phone: +95 9973848481</p>
+    <p class="mm">📧 အီးမေးလ်: kylerysel@gmail.com | 📞 ဖုန်း: +95 9973848481</p>
+    <p>© 2025 Petroleum Engineering Website</p>
+  </footer>
+</body>
+</html>

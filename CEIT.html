@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Civil Engineering Website</title>
+  <link rel="stylesheet" href="civil home.css">
+  <script>
+    function switchLang(lang) {
+      const en = document.querySelectorAll('.en');
+      const mm = document.querySelectorAll('.mm');
+      if (lang === 'en') {
+        en.forEach(el => el.style.display = 'block');
+        mm.forEach(el => el.style.display = 'none');
+      } else {
+        en.forEach(el => el.style.display = 'none');
+        mm.forEach(el => el.style.display = 'block');
+      }
+    }
+  </script>
+</head>
+<body onload="switchLang('mm')">
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h2 class="en">Civil Engineering</h2>
+   
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about" class="en">HOME</a><a href="#about" class="mm">HOME</a></li>
+        <li><a href="#history" class="en">MAJORS</a><a href="#history" class="mm">MAJORS</a></li>
+        <li><a href="#jobs" class="en">LIST</a><a href="#jobs" class="mm">LIST</a></li>
+        <li><a href="#contact" class="en">CONTACT US</a><a href="#contact" class="mm">CONTACT US</a></li>
+        <li><a href="#contact" class="en">ABOUT</a><a href="#contact" class="mm">ABOUT</a></li>
+      
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button onclick="switchLang('en')">EN</button>
+      <button onclick="switchLang('mm')">MM</button>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h1 class="en">About</h1>
+    <h1 class="mm">About</h1>
+    <div class="box">
+      <p class="en">
+      'Computer Engineering and Information Technology' or 'CEIT' major combines Computer Engineering (designing and programming computer hardware and low-level software) with Information Technology (managing, securing, and applying computer systems in organizations). Students gain skills in electronics, programming, networking, databases, cybersecurity, and cloud systems. It produces versatile graduates who understand both how technology is built and how it is used in real-world environments.
+      </p>
+      <p class="mm">
+        အခု ဘာသာရပ်က ကွန်ပျူတာ အင်ဂျင်နီယာ (ကွန်ပျူတာ ဟာ့ဒ်ဝဲနဲ့ low-level ဆော့ဖ်ဝဲလ်တွေကို ဒီဇိုင်းရေးဆွဲပြီး ပရိုဂရမ် ရေးသားတာ) နဲ့ အချက်အလက်နည်းပညာ (အဖွဲ့အစည်းတွေမှာ ကွန်ပျူတာစနစ်တွေကို စီမံခန့်ခွဲတာ၊ လုံခြုံရေး စောင့်ရှောက်တာနဲ့ အသုံးချတာ) တို့ကို ပေါင်းစပ်ထားပါတယ်။ ကျောင်းသား၊ ကျောင်းသူတွေဟာ အီလက်ထရွန်းနစ်၊ ပရိုဂရမ်းမင်း၊ နက်ဝါ့ခ်၊ ဒေတာဘေ့စ်၊ ဆိုက်ဘာလုံခြုံရေးနဲ့ ကလောက်စနစ်တွေမှာ ကျွမ်းကျင်မှု ရရှိကြပါတယ်။ ဒီဘာသာရပ်က နည်းပညာကို ဘယ်လိုတည်ဆောက်ထားတယ်၊ ပြီးတော့ လက်တွေ့ကမ္ဘာမှာ ဘယ်လိုအသုံးပြုတယ်ဆိုတာကို နားလည်တဲ့ ဘက်စုံသုံး ဘွဲ့ရတွေကို မွေးထုတ်ပေးပါတယ်။
+      </p>
+     
+    </div>
+  </section>
+  <!-- History -->
+  <section id="history" class="section">
+    <h1 class="en">History</h1>
+    <h1 class="mm">History</h1>
+    <div class="box">
+      <p class="en">
+      Computer Engineering emerged in the 1970s–80s as a bridge between Electrical Engineering and Computer Science, focusing on hardware, chips, and embedded systems.
+
+Information Technology grew in the 1990s–2000s, as businesses increasingly needed specialists to manage networks, databases, and enterprise systems.
+
+The combined approach became more important in the 2010s and beyond, with the rise of IoT, cloud computing, and cybersecurity, requiring professionals who can integrate hardware and IT systems. 
+      <p class="mm">
+   ကွန်ပျူတာ အင်ဂျင်နီယာဘာသာရပ်ဟာ ၁၉၇၀-၈၀ ပြည့်လွန်နှစ်တွေမှာ လျှပ်စစ်အင်ဂျင်နီယာဘာသာရပ်နဲ့ ကွန်ပျူတာသိပ္ပံဘာသာရပ်တို့ကြားက ချိတ်ဆက်မှုတစ်ခုအနေနဲ့ ပေါ်ပေါက်လာခဲ့ပြီး ဟာ့ဒ်ဝဲ၊ ချစ်ပ်ပြားနဲ့ အင်ဘက်ဒက်စ်စနစ်တွေအပေါ် အာရုံစိုက်ခဲ့ပါတယ်။
+အချက်အလက်နည်းပညာဟာဆိုရင် ၁၉၉၀-၂၀၀၀ ပြည့်လွန်နှစ်တွေမှာ စီးပွားရေးလုပ်ငန်းတွေက နက်ဝါ့ခ်တွေ၊ ဒေတာဘေ့စ်တွေနဲ့ စီးပွားရေးလုပ်ငန်းသုံးစနစ်တွေကို စီမံခန့်ခွဲဖို့အတွက် အထူးကျွမ်းကျင်သူတွေ ပိုလိုအပ်လာတာနဲ့အမျှ တိုးတက်လာခဲ့ပါတယ်။
+၂၀၁၀ ပြည့်လွန်နှစ်တွေနဲ့ နောက်ပိုင်းမှာ IoT (အရာဝတ္ထုများ၏ အင်တာနက်)၊ ကလောက်ကွန်ပြူတင်းနဲ့ ဆိုက်ဘာလုံခြုံရေးတို့ ခေတ်စားလာတာနဲ့အမျှ ဟာ့ဒ်ဝဲနဲ့ အချက်အလက်နည်းပညာစနစ်တွေကို ပေါင်းစပ်နိုင်တဲ့ ပညာရှင်တွေ လိုအပ်လာတဲ့အတွက် ဒီပေါင်းစပ်ချဉ်းကပ်မှုက ပိုပြီး အရေးပါလာခဲ့ပါတယ်။
+      </p>
+    </div>
+  </section>
+
+  <!-- Jobs -->
+  <section id="jobs" class="section">
+    <h1 class="en">Job Opportunities</h1>
+    <h1 class="mm">Job Opportunities</h1>
+    <div class="box">
+      <p class="en">
+       Graduates can work in a wide range of roles, including:<br>
+
+Hardware & Systems → Computer Engineer, Embedded Systems Developer, Systems Architect<br>
+
+Networking & IT → Network Engineer, Database Administrator, IT Systems Manager<br>
+
+Cybersecurity & Cloud → Cybersecurity Analyst, Cloud Engineer, DevOps/Site Reliability Engineer<br>
+
+Emerging Fields → IoT Engineer, AI Hardware Specialist, Technology Consultant
+      </p>
+      <p class="mm">
+    ဘွဲ့ရရှိပြီးသူတွေဟာ အောက်ပါအလုပ်အကိုင်တွေ အပါအဝင် ကျယ်ပြန့်တဲ့ အခန်းကဏ္ဍတွေမှာ လုပ်ကိုင်နိုင်ပါတယ်-<br>
+ဟာ့ဒ်ဝဲနှင့် စနစ်များ → ကွန်ပျူတာ အင်ဂျင်နီယာ၊ အင်ဘက်ဒက်စ် စနစ်များ ရေးသားသူ၊ စနစ်ဆိုင်ရာ ဗိသုကာပညာရှင်<br>
+နက်ဝါ့ခ်နှင့် အချက်အလက်နည်းပညာ → နက်ဝါ့ခ် အင်ဂျင်နီယာ၊ ဒေတာဘေ့စ် စီမံခန့်ခွဲသူ၊ အချက်အလက်နည်းပညာ စနစ်များ မန်နေဂျာ<br>
+ဆိုက်ဘာလုံခြုံရေးနှင့် ကလောက် → ဆိုက်ဘာလုံခြုံရေး လေ့လာဆန်းစစ်သူ၊ ကလောက် အင်ဂျင်နီယာ၊ DevOps/Site Reliability Engineer<br>
+ပေါ်ပေါက်လာသော နယ်ပယ်များ → IoT အင်ဂျင်နီယာ၊ AI ဟာ့ဒ်ဝဲ အထူးကျွမ်းကျင်သူ၊ နည်းပညာ အတိုင်ပင်ခံပုဂ္ဂိုလ်
+      </p>
+
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p class="en">📧 Email: kylerysel@gmail.com | 📞 Phone: +95 9973848481</p>
+    <p class="mm">📧 အီးမေးလ်: kylerysel@gmail.com | 📞 ဖုန်း: +95 9973848481</p>
+    <p>© 2025 Civil Engineering Website</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Civil Engineering Website</title>
+  <link rel="stylesheet" href="civil home.css">
+  <script>
+    function switchLang(lang) {
+      const en = document.querySelectorAll('.en');
+      const mm = document.querySelectorAll('.mm');
+      if (lang === 'en') {
+        en.forEach(el => el.style.display = 'block');
+        mm.forEach(el => el.style.display = 'none');
+      } else {
+        en.forEach(el => el.style.display = 'none');
+        mm.forEach(el => el.style.display = 'block');
+      }
+    }
+  </script>
+</head>
+<body onload="switchLang('mm')">
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h2 class="en">Civil Engineering</h2>
+   
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about" class="en">HOME</a><a href="#about" class="mm">HOME</a></li>
+        <li><a href="#history" class="en">MAJORS</a><a href="#history" class="mm">MAJORS</a></li>
+        <li><a href="#jobs" class="en">LIST</a><a href="#jobs" class="mm">LIST</a></li>
+        <li><a href="#contact" class="en">CONTACT US</a><a href="#contact" class="mm">CONTACT US</a></li>
+        <li><a href="#contact" class="en">ABOUT</a><a href="#contact" class="mm">ABOUT</a></li>
+      
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button onclick="switchLang('en')">EN</button>
+      <button onclick="switchLang('mm')">MM</button>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h1 class="en">About</h1>
+    <h1 class="mm">About</h1>
+    <div class="box">
+      <p class="en">
+      Information Technology (IT) focuses on using, managing, and securing computer systems, networks, and software to support organizations. Unlike Computer Engineering (which designs hardware) or Computer Science (which builds new software concepts), IT is more about applying technology to solve real-world problems.
+Students study networking, databases, cloud computing, cybersecurity, systems administration, and IT project management.
+      </p>
+      <p class="mm">
+        အချက်အလက်နည်းပညာ (IT) ဟာ အဖွဲ့အစည်းတွေကို အထောက်အကူပြုဖို့အတွက် ကွန်ပျူတာစနစ်တွေ၊ ကွန်ရက်တွေနဲ့ ဆော့ဖ်ဝဲလ်တွေကို အသုံးပြုတာ၊ စီမံခန့်ခွဲတာနဲ့ လုံခြုံအောင်လုပ်ဆောင်တာတွေအပေါ် အာရုံစိုက်ပါတယ်။ ကွန်ပျူတာ အင်ဂျင်နီယာ (ဟာ့ဒ်ဝဲကို ဒီဇိုင်းထုတ်တာ) ဒါမှမဟုတ် ကွန်ပျူတာသိပ္ပံ (ဆော့ဖ်ဝဲလ်အယူအဆအသစ်တွေကို ဖန်တီးတာ) တို့နဲ့ မတူဘဲ၊ အချက်အလက်နည်းပညာဟာ လက်တွေ့ကမ္ဘာက ပြဿနာတွေကို ဖြေရှင်းဖို့အတွက် နည်းပညာကို အသုံးချတာနဲ့ ပိုသက်ဆိုင်ပါတယ်။
+ကျောင်းသား၊ ကျောင်းသူတွေဟာ ကွန်ရက်ချိတ်ဆက်ခြင်း၊ ဒေတာဘေ့စ်၊ ကလောက် ကွန်ပြူတင်း၊ ဆိုက်ဘာလုံခြုံရေး၊ စနစ်များ စီမံခန့်ခွဲခြင်းနဲ့ အိုင်တီစီမံကိန်း စီမံခန့်ခွဲခြင်းစတဲ့ ဘာသာရပ်တွေကို သင်ယူရပါတယ်။
+      </p>
+     
+    </div>
+  </section>
+  <!-- History -->
+  <section id="history" class="section">
+    <h1 class="en">History</h1>
+    <h1 class="mm">History</h1>
+    <div class="box">
+      <p class="en">
+      Globally:<br>
+
+IT as a field grew in the 1990s–2000s, when businesses increasingly relied on computers, the internet, and enterprise systems.
+
+The rise of networking, data storage, and cybersecurity pushed IT into its own major, separate from Computer Science.
+
+In the 2010s and beyond, IT expanded into cloud computing, DevOps, and digital transformation fields.<br><br>
+
+
+In Myanmar:<br>
+
+IT education became formalized in the late 1990s, with universities like University of Computer Studies, Yangon (UCSY) and UCSM offering Computer Science and IT-related degrees.
+
+Yangon Technological University (YTU) also established the Computer Engineering and Information Technology (CEIT) Department in 1997, offering bachelor’s, master’s, and PhD programs that combine IT and engineering.
+
+Today, IT programs in Myanmar include courses on networking, cloud systems, and security, aligned with global trends.
+      <p class="mm">
+   ကမ္ဘာတစ်ဝန်း-<br>
+အိုင်တီနယ်ပယ်ဟာ ၁၉၉၀ ပြည့်လွန်နှစ်တွေကနေ ၂၀၀၀ ပြည့်လွန်နှစ်တွေမှာ စီးပွားရေးလုပ်ငန်းတွေက ကွန်ပျူတာတွေ၊ အင်တာနက်နဲ့ လုပ်ငန်းသုံးစနစ်တွေအပေါ် ပိုမိုမှီခိုလာကြတဲ့အတွက် တိုးတက်လာခဲ့ပါတယ်။
+ကွန်ရက်ချိတ်ဆက်ခြင်း၊ အချက်အလက်သိုလှောင်ခြင်းနဲ့ ဆိုက်ဘာလုံခြုံရေးတို့ ခေတ်စားလာတာက အိုင်တီကို ကွန်ပျူတာသိပ္ပံနဲ့ သီးခြားဘာသာရပ်တစ်ခုအဖြစ် တွန်းအားပေးခဲ့ပါတယ်။
+၂၀၁၀ ပြည့်လွန်နှစ်တွေနဲ့ နောက်ပိုင်းမှာ အိုင်တီနယ်ပယ်ဟာ ကလောက်ကွန်ပြူတင်း၊ DevOps နဲ့ ဒစ်ဂျစ်တယ် အသွင်ကူးပြောင်းရေးနယ်ပယ်တွေအထိ တိုးချဲ့လာခဲ့ပါတယ်။<br><br>
+မြန်မာနိုင်ငံတွင်-<br>
+အိုင်တီပညာရေးဟာ ၁၉၉၀ ပြည့်လွန်နှစ်တွေ နှောင်းပိုင်းမှာ ရန်ကုန်ကွန်ပျူတာတက္ကသိုလ် (UCSY) နဲ့ မန္တလေးကွန်ပျူတာတက္ကသိုလ် (UCSM) တို့လို တက္ကသိုလ်တွေကနေ ကွန်ပျူတာသိပ္ပံနဲ့ အိုင်တီနဲ့သက်ဆိုင်တဲ့ ဘွဲ့ဒီဂရီတွေကို ပေးအပ်လာတာနဲ့အမျှ ပုံသဏ္ဌာန်တစ်ရပ်ဖြစ်လာခဲ့ပါတယ်။
+ရန်ကုန်နည်းပညာတက္ကသိုလ် (YTU) ဟာလည်း အိုင်တီနဲ့ အင်ဂျင်နီယာဘာသာရပ်တွေကို ပေါင်းစပ်ထားတဲ့ ဝိဇ္ဇာ၊ မဟာနဲ့ ပါရဂူဘွဲ့တွေကို ပေးအပ်ဖို့အတွက် ၁၉၉၇ ခုနှစ်မှာ ကွန်ပျူတာ အင်ဂျင်နီယာနှင့် အချက်အလက်နည်းပညာ (CEIT) ဌာနကို ဖွင့်လှစ်ခဲ့ပါတယ်။
+ယနေ့ခေတ်မှာ မြန်မာနိုင်ငံက အိုင်တီပရိုဂရမ်တွေမှာ ကမ္ဘာ့လမ်းကြောင်းနဲ့အညီ ကွန်ရက်ချိတ်ဆက်ခြင်း၊ ကလောက်စနစ်တွေနဲ့ လုံခြုံရေးဆိုင်ရာ ဘာသာရပ်တွေကို ထည့်သွင်းသင်ကြားပေးလျက်ရှိပါတယ်။
+      </p>
+    </div>
+  </section>
+
+  <!-- Jobs -->
+  <section id="jobs" class="section">
+    <h1 class="en">Job Opportunities</h1>
+    <h1 class="mm">Job Opportunities</h1>
+    <div class="box">
+      <p class="en">
+       An IT degree opens doors to careers across industries, since every business needs technology support:<br>
+
+Networking & Syste: Network Engineer, Systems Administrator, IT Support Specialist<br>
+
+
+Databases & Cloud: Database Administrator, Cloud Engineer, DevOps Engineer<br>
+
+
+Cybersecurity: Security Analyst, Ethical Hacker, Information Security Officer<br>
+
+
+Business & Management: IT Project Manager, Technology Consultant, Digital Transformation Specialist<br>
+
+
+
+Future Scope in Myanmar: With the growth of telecom, fintech, e-commerce, and digital government initiatives, IT graduates in Myanmar are in demand for networking, cybersecurity, and cloud infrastructure roles.
+      </p>
+      <p class="mm">
+     အိုင်တီဘွဲ့ဟာ စီးပွားရေးလုပ်ငန်းတိုင်းမှာ နည်းပညာအထောက်အပံ့ လိုအပ်တာကြောင့် နယ်ပယ်အသီးသီးက အသက်မွေးဝမ်းကျောင်းလမ်းကြောင်းတွေကို ပွင့်စေပါတယ်-<br>
+ကွန်ရက်နှင့် စနစ်များ-ကွန်ရက် အင်ဂျင်နီယာ၊ စနစ်များ စီမံခန့်ခွဲသူ၊ အိုင်တီပံ့ပိုးကူညီရေး အထူးကျွမ်းကျင်သူ<br>
+ဒေတာဘေ့စ်နှင့် ကလောက်-
+ဒေတာဘေ့စ် စီမံခန့်ခွဲသူ၊ ကလောက် အင်ဂျင်နီယာ၊ DevOps အင်ဂျင်နီယာ<br>
+ဆိုက်ဘာလုံခြုံရေး-
+လုံခြုံရေး လေ့လာဆန်းစစ်သူ၊ Ethical Hacker၊ သတင်းအချက်အလက် လုံခြုံရေးအရာရှိ<br>
+စီးပွားရေးနှင့် စီမံခန့်ခွဲမှု-
+အိုင်တီစီမံကိန်း မန်နေဂျာ၊ နည်းပညာ အတိုင်ပင်ခံ၊ ဒစ်ဂျစ်တယ် အသွင်ကူးပြောင်းရေး အထူးကျွမ်းကျင်သူ<br>
+မြန်မာနိုင်ငံတွင် အနာဂတ် အလားအလာ-
+ဆက်သွယ်ရေး၊ ငွေကြေးနည်းပညာ (Fintech)၊ အီလက်ထရွန်နစ် ကူးသန်းရောင်းဝယ်ရေး (e-commerce) နဲ့ ဒစ်ဂျစ်တယ်အစိုးရ အစီအစဉ်တွေ တိုးတက်လာတာနဲ့အမျှ မြန်မာနိုင်ငံက အိုင်တီဘွဲ့ရတွေဟာ ကွန်ရက်ချိတ်ဆက်ခြင်း၊ ဆိုက်ဘာလုံခြုံရေးနဲ့ ကလောက် အခြေခံအဆောက်အအုံဆိုင်ရာ အခန်းကဏ္ဍတွေအတွက် လိုအပ်ချက်များပြားလာပါတယ်။
+      </p>
+
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p class="en">📧 Email: kylerysel@gmail.com | 📞 Phone: +95 9973848481</p>
+    <p class="mm">📧 အီးမေးလ်: kylerysel@gmail.com | 📞 ဖုန်း: +95 9973848481</p>
+    <p>© 2025 Civil Engineering Website</p>
+  </footer>
+</body>
+</html>
